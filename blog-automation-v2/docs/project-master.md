@@ -1,7 +1,7 @@
 # ブログ半自動化プロジェクト マスタードキュメント
 
-最終更新: 2026-05-24
-バージョン: v1.0
+最終更新: 2026-05-25
+バージョン: v1.1
 
 ---
 
@@ -64,7 +64,7 @@
 ## 6. 品質目標（フェーズ別）
 
 | フェーズ | 記事番号 | 目標品質 | 位置づけ |
-|----------|----------|----------|----------|
+|----------|----------|----------|---------|
 | 旧型 | 記事1-2 | 40-50点 | 後でリライト対象 |
 | 過渡期 | 記事3 | 60-70点 | 新フローの基準 |
 | 検証 | 記事4-6 | 75-85点 | 新フロー検証期間（PDCA） |
@@ -106,6 +106,7 @@ blog-automation/
 │  ├─ 05_structure-rules.md
 │  ├─ 06_cta-patterns.md
 │  ├─ 07_style-references.md    # 参考記事の型のみ抽象化
+│  ├─ 08_my-templates.md        # ✅作成済み（SEOライティング絶対基準）
 │  ├─ experiences/
 │  │  ├─ INDEX.md               # タグ別索引
 │  │  ├─ sedori.md
@@ -164,8 +165,9 @@ blog-automation/
 4. **assets/04_tone-sample.md**
 5. **assets/05_structure-rules.md**
 6. **assets/06_cta-patterns.md**
-7. **assets/07_style-references.md**（参考のみ）
-8. **docs/rules/writing-rules.md**
+7. **assets/08_my-templates.md**（SEOライティング絶対基準）
+8. **assets/07_style-references.md**（参考のみ）
+9. **docs/rules/writing-rules.md**
 
 衝突検出時の処理:
 - 重要度「高」: 必ず停止しユーザーに確認
@@ -236,14 +238,17 @@ Claude Code は、ファイルを受け取った際、**保存前に必ず以下
 
 ---
 
-## 12. 進捗状況（2026-05-24時点）
+## 12. 進捗状況（2026-05-25時点）
 
 ### ✅ 完了
 - `assets/01_ng-words.md`
 - `assets/02_persona.md`
+- `assets/08_my-templates.md`
 - 全体設計の合意
 - 弁当箱メタファー、パターンC、文章表現3レベル定義の確定
 - ファイル取り込み対話ルールの確定
+- note → WordPress 移行対応
+- Threads 集客チャネル廃止対応
 
 ### 🚧 次のタスク（優先順位）
 1. `assets/04_tone-sample.md` 作成（ステップ1-A〜1-G、合計約2時間）
@@ -285,7 +290,7 @@ Claude Code は、ファイルを受け取った際、**保存前に必ず以下
 プロ目線でアドバイスしてください。
 
 【現状】
-- assets/01_ng-words.md, assets/02_persona.md 作成済み
+- assets/01_ng-words.md, assets/02_persona.md, assets/08_my-templates.md 作成済み
 - マスタードキュメント（添付）に全設計が記載済み
 - 次のタスク: assets/04_tone-sample.md ステップ1-Aから再開
 
@@ -305,8 +310,9 @@ project-master.md の全文を貼り付け
 ## 15. 改訂履歴
 
 | 日付 | バージョン | 変更内容 |
-|------|----------|----------|
+|------|----------|---------|
 | 2026-05-24 | v1.0 | 初版作成。全体設計の確定事項を集約 |
+| 2026-05-25 | v1.1 | 08_my-templates.md 追加、note → WordPress 移行対応、Threads集客チャネル廃止対応 |
 
 ---
 
