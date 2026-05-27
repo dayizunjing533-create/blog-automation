@@ -78,6 +78,7 @@ Claude Code がセッション開始時に読み込む最優先ルールファ�
 7. `assets/08_my-templates.md`（SEOライティング絶対基準）
 8. `assets/07_style-references.md`（参考のみ）
 9. `docs/rules/writing-rules.md`
+10. `me.md`（著者一次情報・体験ストック・トーン特性）
 
 ---
 
