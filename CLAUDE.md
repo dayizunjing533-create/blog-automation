@@ -71,14 +71,10 @@ Claude Code がセッション開始時に読み込む最優先ルールファ�
 
 1. `assets/01_ng-words.md`（絶対遵守）
 2. `assets/02_persona.md`
-3. `assets/03_identity-anchors.md`
-4. `assets/04_tone-sample.md`
-5. `assets/05_structure-rules.md`
-6. `assets/06_cta-patterns.md`
-7. `assets/08_my-templates.md`（SEOライティング絶対基準）
-8. `assets/07_style-references.md`（参考のみ）
-9. `docs/rules/writing-rules.md`
-10. `me.md`（著者一次情報・体験ストック・トーン特性）
+3. `assets/tone-sample.md`（著者の文体DNA・article-004が基準）
+4. `assets/08_my-templates.md`（SEOライティング絶対基準）
+5. `assets/07_style-references.md`（構造参考のみ・文体には使わない）
+6. `me.md`（著者一次情報・体験ストック・トーン特性）
 
 ---
 
@@ -88,7 +84,7 @@ Claude Code がセッション開始時に読み込む最優先ルールファ�
 |---------|------|
 | `/research [KW]` | キーワードリサーチ + rationale生成 |
 | `/outline` | 記事構成案 + rationale生成 |
-| `/write` | 本文生成 + rationale生成 |
+| `/write` | 骨格生成（構造・データ・ファクト） |
 | `/self-check` | 自己チェックレポート生成 |
 | `/check` | 校閲レポート生成 |
 | `/polish` | 最終仕上げ（メタ・FAQ含む） |
