@@ -18,10 +18,11 @@
 ## Step 1: 読み込むファイル
 
 ```
-drafts/article-XXX/research.md   ← リサーチ結果・差別化ポイント
-assets/02_persona.md              ← ターゲット読者の定義
-assets/08_my-templates.md §3§5§6 ← タイトル・リード・見出しのルール
-assets/01_ng-words.md             ← 禁止表現リスト
+drafts/article-XXX/research.md       ← リサーチ結果・差別化ポイント
+assets/02_persona.md                  ← ターゲット読者の定義・感情・読後状態
+assets/08_my-templates.md §0§1§2§3§6 ← 3つのNOT・検索意図・PREP法・タイトル・見出しルール
+assets/07_style-references.md         ← 競合記事の構成パターン（構造参考のみ）
+assets/01_ng-words.md                 ← 禁止表現リスト
 ```
 
 ---
